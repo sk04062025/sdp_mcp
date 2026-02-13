@@ -10,7 +10,7 @@ This is a Model Context Protocol (MCP) server for ManageEngine ServiceDesk Plus 
 
 ## Prerequisites
 
-- Python 3.11+
+- Python 3.12+
 - Docker & Docker Compose (optional but recommended)
 - ServiceDesk Plus API Key
 
