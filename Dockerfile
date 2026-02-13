@@ -6,8 +6,8 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the server script
-COPY sdp_mcp.py .
+# Copy the application code
+COPY . .
 
 # Expose the port for the MCP SSE transport
 EXPOSE 8000

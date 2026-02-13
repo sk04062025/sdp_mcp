@@ -1,0 +1,11 @@
+
+.git
+.gitignore
+Dockerfile
+docker-compose.yml
+README.md
+venv
+__pycache__
+*.pyc
+.env
+sdp_mcp.py.bak
