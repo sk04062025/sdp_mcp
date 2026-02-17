@@ -67,7 +67,9 @@ The server will start on port `8000` (SSE transport).
 The following tools are currently implemented in `app/mcp_tools/tickets.py`:
 
 - **`list_requests(row_count=10)`**: Fetch the latest helpdesk tickets.
-- **`create_ticket(subject, description, requester_name)`**: Create a new support ticket.
+- **`get_request(request_id)`**: Get full details of a ticket.
+- **`update_request(request_id, subject, description, status, priority)`**: Update ticket fields.
+- **`close_request(request_id, closure_comments)`**: Close a ticket with comments.
 
 ## Project Structure
 
